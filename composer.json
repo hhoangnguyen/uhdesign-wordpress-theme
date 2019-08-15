@@ -1,0 +1,27 @@
+{
+  "name": "UhDesign Free Premium Responsive Wordpress Theme",
+  "description": "UhDesign Free Premium Responsive Wordpress Theme",
+  "keywords": ["uhdesign", "wordpress", "theme", "free", "premium"],
+  "version": "0.1.1",
+  "homepage": "https://github.com/hhoangnguyen",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Huy Hoang-Nguyen",
+      "email": "becucuatui@gmail.com",
+      "homepage": "https://github.com/hhoangnguyen"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^7.0.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit -c phpunit.xml"
+  }
+
+}
