@@ -8,7 +8,7 @@
         <whitelist addUncoveredFilesFromWhitelist="true" processUncoveredFilesFromWhitelist="false">
             <directory suffix=".php">./classes</directory>
             <exclude>
-
+                <file>./classes/UhDesign/View/Option.php</file>
             </exclude>
         </whitelist>
     </filter>
